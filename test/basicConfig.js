@@ -1,15 +1,15 @@
-const baseUrl = "http://example.com"; // Replace the value "http://example.com" by the base URL of the website you want to test.
-const projectId = "sample project"; // Replace the value "sample project" by the id of your project. It can be any string (e.g., "my-website").
+const baseUrl = "https://talkingabouttesting.coursify.me"; // Replace the value "http://example.com" by the base URL of the website you want to test.
+const projectId = "coursify.me"; // Replace the value "sample project" by the id of your project. It can be any string (e.g., "my-website").
 
 // Replace the values of the below array with the relative URLs of your website. E.g., "/about", "/contact", "/pricing", etc.
 // Use just "/" to test the homepage of your website.
 // Add as many relative URLs as you need.
 const relativeUrls =[
   "/",
-  "/page1",
-  "/page2",
-  "/page3",
-  "/page4",
+  "/instructors",
+  "/courses/arquitetura-de-testes-com-protractor",
+  "/courses/testes-de-regressao-visual-com-backstopjs",
+  "/courses/introducao-aos-testes-automatizados",
 ];
 
 // Leave the below array as is if you want to test your website using the viewports listed below.
